@@ -1,0 +1,216 @@
+body{
+    font-family:"Josefin Slab", serif;
+    background-color: #0c8db4;
+    color: #192a31;
+    margin: 0;
+    padding: 0; 
+}
+
+#hero h1{
+    font-family: "Cardo", serif;
+    color: #192a31 !important;
+    font-size: 100px;
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    font-weight: 900;
+    color:  #192a31;
+    margin: 10px;
+    padding: 10px;
+}
+#hero hr{
+    margin-top: 10px;
+    border: 0.5px solid #192a31;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 300px;
+    margin: auto;
+}
+
+.intro p {
+    color: #192a31 !important;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.container {
+    background-color: #86c9e3;
+    width: 1260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#projects{
+    margin-top: 60px;
+}
+
+.title{
+    font-family: "Cardo", serif;
+    color: #192a31;
+    margin-left: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.images{
+    width: 300px;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 2fr;
+    column-gap: 3px;
+}
+
+.project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.project1 h3 p{
+    margin: auto;
+}
+
+.project1 img{
+    margin-left: 30px;
+}
+
+.project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.project2 h3 p{
+    margin: auto;
+}
+
+.project3 img{
+    margin-left: 30px;
+}
+
+
+.project3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.project3 h3 p{
+    margin: auto;
+}
+
+.project2 img{
+    align-self: auto;
+}
+
+.experiences{
+    margin-bottom: 60px;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.service h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.service p{
+    width: 300px;
+}
+.separator{
+    margin-top: 60px;
+    border: 0.3px solid #192a31;
+    width: 1000px;
+}
+
+.about{
+    margin: 40px;
+}
+
+.icon{
+    width: 100px;
+    margin-left: -10px;
+    padding: 20px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.me p{
+    width: 480px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.me h3{
+    margin-left: -70px;
+}
+
+.contact{
+    width: 380px;
+}
+
+.contact h2{
+    margin-left: -170px;
+}
+
+.contact .icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+
+.placeholder{
+    border-bottom: 1px solid #192a31;
+    margin-bottom: 40px;
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #0c8db4;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #192a31;
+    font-family: "Josefin Slab", serif;
+    font-weight: 800;
+}
+
+.end{
+    text-align: center;
+    color: #192a31;
+    letter-spacing: 1px;
+    padding: 20px;
+}
